@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.alert{
+    background: url(alertImg.jpg);
+    background-size: cover;
+    background-position: center;
+    /* border: 1px red solid; */
+    position: fixed;
+    /* margin: 10px; */
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    background-color: white;
+    /* padding: 3px; */
+}
+.alert h1{
+    color: white;
+    background-color: rgb(118, 118, 235);
+    font-size: 20px;
+    text-align: center;
+}
+/* .fa{
+    margin: 5px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: white;
+    
+} */
+.fa-times{
+    /* margin: auto; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background: white;
+    margin: 5px;
+    /* padding: 5px; */
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+}
+.fa-phone{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background: white;
+    margin: 5px;
+    /* padding: 5px; */
+    font-size: 25px;
+    cursor: pointer;
+}
